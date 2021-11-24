@@ -56,13 +56,10 @@ contact
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/siteuitgeschrevenhome.jpg" width="375px" alt="breakdown van de home pagina">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+### contact pagina: 
+<img src="images/siteuitgeschrevencontact.jpg" width="375px" alt="breakdown van contactpagina">
 
 </details>
 
@@ -78,15 +75,13 @@ contact
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Ik loop nog redelijk gelijk met de lessen, maar vind alles nog wel lastig en ik vind het moeilijk om alle termen te onthouden. Ik moet alles gewoon goed bijhouden en meer oefenen met CSS en JS. Mijn website is nog wel kaal als het gaat om CSS dus daar moet ook nog aan gewerkt worden. 
+
 
 ### Agenda voor meeting
-samen met je groepje opstellen
+samen met je groepje opstellen.
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+<img src="images/agenda.png" width="375px" alt="agenda team">
 
 
 ### Verslag van meeting
