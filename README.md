@@ -87,10 +87,9 @@ samen met je groepje opstellen.
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- aan mijn css werken 
+- html verbeteren 
+- volgende keer een andere link in het document zetten 
 
 </details>
 
@@ -104,17 +103,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb wat meer css in mijn pagina verwerkt, maar ik moet wel volgde week extra hieraan gaan werken.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+<img src="images/team.png" width="375px" alt="agenda team">
 
 
 ### Verslag van meeting
