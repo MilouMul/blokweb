@@ -73,9 +73,8 @@ contact
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-Ik loop nog redelijk gelijk met de lessen, maar vind alles nog wel lastig en ik vind het moeilijk om alle termen te onthouden. Ik moet alles gewoon goed bijhouden en meer oefenen met CSS en JS. Mijn website is nog wel kaal als het gaat om CSS dus daar moet ook nog aan gewerkt worden. 
+Ik loop nog redelijk gelijk met de lessen, maar vind alles nog wel lastig en ik vind het moeilijk om alle termen te onthouden. Ik moet alles gewoon goed bijhouden en meer oefenen met CSS en JS. Mijn website is nog wel kaal als het gaat om CSS dus daar moet ook nog aan gewerkt worden. Ik heb tijdens het werken aan mijn website ook nog wat extra dingen weggehaald uit de breakdownschets, omdat het te veel werd of het me niet lukte. 
 
 
 ### Agenda voor meeting
@@ -103,7 +102,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-Ik heb wat meer css in mijn pagina verwerkt, maar ik moet wel volgde week extra hieraan gaan werken.
+Ik heb wat meer css in mijn pagina verwerkt, maar ik moet wel volgde week extra hieraan gaan werken. Ook moet ik beginnen aan mijn tweede pagina en werken aan mijn hamburger menu. Het javascript gedeelte viel me nog wel tegen en de opdrachten die we moesten maken met css waren te doen, maar als je die in je eigen website moet verwerken, dan valt het ook nog erg tegen. 
 
 
 ### Agenda voor meeting
@@ -115,10 +114,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- foto's gewoon in photoshop kleiner maken is makkelijk
+- hamburger menu moet je even zelf kijken in de opdrachten en sommige opdrachten gewoon opnieuw maken om dat te kunnen maken 
 
 </details>
 
@@ -134,33 +131,43 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### voice-over
+Als ik de voice-over test doe, dan leest hij de buttons bijvoorbeeld wel voor maar de tekst zoals titels niet. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Dit zou opgelost kunnen worden door een naam te geven aan de titels zodat deze ook voorgelezen kunnen worden. 
 
+#### Voice-over 
+De stem van de voice-over is mega vervelend. Na een minuut word het al vervelend. 
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Ze zouden de stem wat meer mensenlijk kunnen maken en niet zo'n robot stem, maar wat ik zelf zou kunnen doen is de tekst duidelijker maken voor de gebruiker.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Voice-over 
+Als je op mijn hamburger menu drukt dan zegt hij knop, maar dat is niet heel duidelijk voor de mensen die niet weten dat dat een hamburger menu is.  
 
+Dan kan je misschien de naam veranderen van de button waardoor hij het duidelijker zegt. 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Bril blur 
+Als je de blur bril op doet dan kan ik de linkjes in het donkergroen over de groene achtergrond en de witte tekst over de plaatjes niet goed lezen en zelfs de oranje tekst bijna niet, alleen als je heel dichtbij zit kan je het lezen.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Als de linkjes en de tekst dikgedrukt zijn en zwart gemaakt worden zou het beter te lezen zijn, maar blijft lastig. 
 
+#### Bril wazig
+Als je de de wazige bril op doet kan je ook het groene linkje niet zien 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Als de linkjes dikgedrukt zijn en zwart gemaakt worden zou het beter te lezen zijn 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Bril diabetes
+Als je de de diabetes bril op doet kan opzich nog wel alles zien, maar je moet wel goed focussen op de letters 
+
+#### motoriek elastiekje 
+Je kan door het elastiekje je site nog redelijk bedienen maar het wordt wel lastig   
+
+#### motoriek apparaatje
+Je kan door het apparaatje niet heel goed je site bedienen. 
+
+Dit zou je kunnen oplossen door te kunnen tabben door de website met je mond. Dit is wel lastig. 
 
 </details>
-
-
-
 
 
 ## Voortgang 3 (week 4)
@@ -169,7 +176,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik moet nog veel doen aan mijn tweede pagina, maar dat hoeft niet heel veel werk te zijn. Dat zijn alleen een paar formuliertjes maken en verder is de header en de footer hetzelfde als de eerste pagina die ik heb gemaakt. 
 
 
 ### Agenda voor meeting
