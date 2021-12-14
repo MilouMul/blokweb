@@ -4,98 +4,131 @@
 }
 
 /*hoofdkleuren*/
-:root{
-  --buttoncolor1:#9EAE05; 
+:root {
+  --buttoncolor1: #9EAE05; 
   --cijfercolor:#9EAE05;
+  --buttoncolor3: white;
+  --backgroundcolorgreen: #9EAE05;
+  --backgroundcolorlightgreen:#F4F5ED;
+  --backgroundcolorwhite:white;
   --buttoncolor2:orange;
   --textcolorh2:orange;
   --textcolorh3:white;
+  --textcolorbuttons: white;
   --textcolorH3: orange;
-  --backgroundcolornav:white;
-  --backgroundcolor:#F4F5ED;
+  --colorlinkjes: darkgreen;
+  --colorgreentext:darkgreen;
+  --legendcolor: orange;
+  --hoverorange:orange;
+  --hovergreen: #9EAE05;
 }
 
 /*hamburgermenu stijlen*/
-
-nav button {
-
+nav button  {
   width: 5em;
   height: 2.5em;
-  background-color: var(--backgroundcolornav);
+  background-color: var(--backgroundcolorwhite);
   border: none;
   border-radius: .25em;
   position: relative;
-  z-index: 100;
-  
-  }
+  z-index: 100; 
+}
 
 /*hamburgermenu*/
-
 nav button::before {
-
   content: "\2630";
   display: inline-flex;
-  justify-content: center;
   align-items: center;
   font-size: 2em;
-  margin-left: 2.5em;
+  margin-left: 0em;
   margin-top: 0.3em;
-  }
+}
 
-  /*rood kruisje*/
-  
+/*rood kruisje*/
 nav.toonMenu button::before {
   content: "\274C";
-  }
+}
   
-  /*lijstje*/
-  
+/*lijstje, schuift heen over gehele pagina*/
 nav ul {
   margin: 0;
   padding: 4em 0 0;
-  background-color: var(--backgroundcolornav);
+  background-color: var(--backgroundcolorwhite);
   list-style: none;
   position: fixed;
   text-align: center;
   left: 0; right: 0; top: 0; bottom: 0;
   transform: translatex(-100%);
-  transition: .5s;
+  transition: .7s;
   z-index: 50;
-  }
-  
+}
+
+/*lijstje, schuift terug*/
 nav.toonMenu ul {
   transform: translatex(0);
-  }
+}
   
-  /*lijst stijlen*/
+/*lijst stijlen*/
+nav li {
+  margin: 2em;
+  font-size: 20px;
+  font-weight: bold;
+}
 
-  nav li {
-    margin: 2em;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: var(--font-primary);
-    }
+/*navigatie naast elkaar*/
+nav {
+  display: flex;
+  background-color: var(--backgroundcolorwhite);
+  padding-bottom: 5px;
+}
+    
+/*groene doneren knop*/
+nav a {
+  background-color: var(--buttoncolor1);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  color: var(--backgroundcolorwhite);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0;
+  border-radius: 0.5em;
+  padding-top: 0.3em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  margin-left: 0.5em;
+}
 
-    /*groene doneren knop*/
+/*hover/active*/
+a:hover{
+  background-color: var(--hoverorange);
+}
 
-nav a{
+section:nth-of-type(3) button:hover{
+  background-color: var(--hoverorange);
+}
 
-    background-color: var(--buttoncolor1);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2em;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-  
-    border-radius: 5%;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 0.3em;
-  }
+#contactpagina section:nth-of-type(6) button:hover { 
+  background-color: var(--hoverorange);
+}
+
+section:nth-of-type(7) button:hover{
+  background-color: var(--hovergreen);
+}
+
+a:active{
+  background-color: var(--colorgreentext);
+}
+
+section:nth-of-type(3) button:active{
+  background-color: var(--colorgreentext);
+}
+
+section:nth-of-type(7) button:active{
+  background-color: var(--colorgreentext);
+}
 
   /*tekst*/
-
 h1 {
   color: var(--buttoncolor2);
   font-family: 'Courier New', Courier, monospace;
@@ -109,185 +142,168 @@ h2 {
   color:var(--buttoncolor2);
   font-family: 'Courier New', Courier, monospace;
   font-size: 2em;
- 
 }
 
 h3 {
-  color: white;
+  color: var(--textcolorh3);
   font-size: 1.5em;
- 
 }
 
 /*alles in het midden op de body*/
-
-body{
+body {
   text-align: center;
 }
 
 /*linkjes*/
-
 a {
-  color:darkgreen;
-}
-
-/*navigtie*/
-
-nav {
-  display: flex;
-
-  background-color: white;
-  padding-bottom: 5px;
+  color: var(--colorlinkjes);
+  font-weight: bold;
 }
 
 /*plaatjes*/
-
 img {
   width: 100%;
 }
 
 /*wasbeer met groene achtergrond*/
-
-section:first-of-type{
-  background-color: #9EAE05;
+section:first-of-type {
+  background-color: var(--backgroundcolorgreen);
   padding-bottom: 1.5em;
 }
 
 /*witte achtergrond met tekst*/
-
-section:nth-of-type(2){
-  background-color: white;
+section:nth-of-type(2) {
+  background-color: var(--backgroundcolorwhite);
 }
 
 /* lichtgroene achtergrond*/
-
-section:nth-of-type(3){
-  background-color: #F4F5ED;
+section:nth-of-type(3) {
+  background-color: var(--backgroundcolorlightgreen);
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
 /*ronde doneerknoppen*/
-
-section:nth-of-type(3) button{
-  background-color: #9EAE05;
+section:nth-of-type(3) button {
+  background-color: var(--buttoncolor3);
   font-family: 'Courier New', Courier, monospace;
   font-size: 1em;
-  color: white;
+  color: var(--colorgreentext);
   font-weight: bold;
   text-transform: uppercase;
-
-  border-radius: 50%;
+  border-radius: 0.9em;
+  border-style: 0.5em;
   padding-top: 1em;
   padding-bottom: 1em;
-  margin-right: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-right: 0.5em;
 }
 
 /*plaatje met tekst 1*/
-
-section:nth-of-type(4){
+section:nth-of-type(4) {
   position: relative;
 }
 
-section:nth-of-type(4) h2{
+section:nth-of-type(4) h2 {
+  position: absolute;
+  top:1em;
+}
+
+section:nth-of-type(4) img {
+  height: 14em;
+}
+
+section:nth-of-type(4) p {
+  position: absolute; 
+  top: 8em;
+  left: 5em;
+  right: 5em;
+  color: var(--textcolorh3);
+}
+
+/*plaatje met tekst 2*/
+section:nth-of-type(5) {
+  position: relative;
+}
+
+section:nth-of-type(5) h2 {
   position: absolute;
   top:2em;
 }
 
-section:nth-of-type(4) p{
+section:nth-of-type(5) img {
+  height: 15em;
+}
 
+section:nth-of-type(5) p {
   position: absolute; 
   top: 10em;
   left: 5em;
   right: 5em;
-  color:white;
-}
-
-/*plaatje met tekst 2*/
-
-section:nth-of-type(5){
-  position: relative;
-}
-
-section:nth-of-type(5) h2{
-  position: absolute;
-  top:2em;
-}
-
-section:nth-of-type(5) p{
-
-  position: absolute; 
-  top: 11em;
-  left: 5em;
-  right: 5em;
-  color:white;
+  color: var(--textcolorh3);
 }
 
 /*het laatste nieuws tot lees verder*/
-
-section:nth-of-type(6){
+section:nth-of-type(6) {
   padding-bottom: 2em;
 }
 
-section:nth-of-type(6) img{
+section:nth-of-type(6) img {
   position: relative;
 }
 
-section:nth-of-type(6) a{
- display: block;
- margin-bottom: 0.5em;
+section:nth-of-type(6) a {
+  display: block;
+  margin-bottom: 1em;
 }
 
-section:nth-of-type(6) h3{
+section:nth-of-type(6) h3 {
   color:var(--textcolorH3);
 }
 
 /*plaatje tot ja kom kijken*/
-
-section:nth-of-type(7){
-
+section:nth-of-type(7) {
   position: relative;
 }
 
-section:nth-of-type(7) h2{
-
+section:nth-of-type(7) h2 {
   position: absolute; 
-  top: 0.3em;
+  top: 0.1em;
   left: 2em;
   right: 2em;
-  color:white;
+  color: var(--textcolorh2);
 }
 
-section:nth-of-type(7) p{
-
+section:nth-of-type(7) p {
   position: absolute; 
-  top: 12em;
+  top: 10em;
   left: 2em;
   right: 2em;
-  color:white;
+  font-weight: bold;
+  color: var(--textcolorh3);
 }
 
-section:nth-of-type(7) button{
-
+section:nth-of-type(7) button {
   background-color: var(--buttoncolor2);
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.5em;
-  color: white;
-  font-weight: bold;
+  color: var(--textcolorbuttons);
   text-transform: uppercase;
+  font-weight: bold;
   margin-top: 0.9em;
   margin-bottom: 0.1em;
-
-  border-radius: 5%;
+  border-radius: 0.5em;
   padding:0.3em;
-  
+  border: 0em;
+}
+
+/*achtergrondkleur sectie 8 (samen... tot plaatje)*/
+section:nth-of-type(8) {
+  background-color: var(--backgroundcolorlightgreen);
 }
 
 /*cijfers*/
-
-section:nth-of-type(8) {
- background-color: var(--backgroundcolor);
-}
-
 section:nth-of-type(8) p {
   color:var(--cijfercolor);
   font-size: 2.5em;
@@ -295,48 +311,124 @@ section:nth-of-type(8) p {
   margin-bottom: 0.5em;
 }
 
-section:nth-of-type(8) img{
+/*hondenpootje*/
+section:nth-of-type(8) img {
  width: 80px;
- }
-
- section:nth-of-type(9) ul li{
-  display:flex;
-  list-style: none;
-
-  width: 30px;  
-  }
-
-footer{
-  background-color: var(--backgroundcolor);
 }
 
- footer ul li{
-    list-style: none; 
-   background-color: var(--buttoncolor1);
+/* volg.. tot socials*/
+/*footer aap achtergrond*/
+footer {
+  background-color: var(--backgroundcolorlightgreen);
+}
 
- }
+/*footer over hele pagina*/
+footer ul {
+  padding-inline-start: 0;
+}
 
- footer img{
+/*lijst met linkjes*/
+footer ul li {
+  background-color: var(--buttoncolor1);
+}
+
+/* socials plaatsen*/
+#socials ul li {
+  display: inline-block;
+  width: 3em;
+  margin-right: 1.5em;
+}
+
+footer img {
    width: 8em;
    margin-top: 2em;
- }
+}
 
- footer h3{
-   color: orange;
- }
+footer h3 {
+   color: var(--colorgreentext);
+   background-color: var(--backgroundcolorgreen);
+}
 
+/*contactpagina, algemeen*/
 
+#contactpagina section:first-of-type { 
+  background-color: var(--backgroundcolorwhite);
+}
+  
+#telefoonnummer {
+  color: var(--colorgreentext);
+}
 
+legend {
+  background-color:var(--legendcolor);
+  color: var(--backgroundcolorwhite);
+  padding: 0.5em 1em;
+}
 
+form { 
+  color: var(--colorgreentext);
+  font-weight: bold;
+}
 
+/*contactpagina, vraag ruimte*/
+textarea {
+  height: 300px;
+  width: 100%;
+}
 
+/*contactpagina, contactformulier textachtergrond */
+#contactpagina section:first-of-type { 
+  background-color: var(--backgroundcolorlightgreen);
+  padding-top: 0.1em;
+  margin-bottom: 2em;
+}
 
+#contactpagina section:nth-of-type(2) fieldset { 
+  padding-top: 1em;
+}
 
+/*contactpagina, je contact verzoek */
+#contactpagina section:nth-of-type(3) { 
+  background-color: var(--backgroundcolorwhite)
+}
 
+#contactpagina section:nth-of-type(3) fieldset { 
+  padding-top: 1em;
+}
 
+#contactpagina section:nth-of-type(4) fieldset { 
+  padding-top: 1em;
+}
 
+#contactpagina section:nth-of-type(5) fieldset { 
+  margin-bottom: 4em;
+  margin-top: 2em;
+  padding-top: 1em;
+}
 
+/*contactpagina, button versturen */
+#contactpagina section:nth-of-type(6) button { 
+  color: var(--textcolorbuttons);
+  background-color: var(--buttoncolor1);
+  padding: 2em;
+  border: 0;
+  border-radius: 1em;
+}
 
+/*socials */
+#contactpagina section:nth-of-type(7) ul li { 
+  margin-top: 11em;
+}
 
+/*tekst "volg...socialmedia */
+#contactpagina section:nth-of-type(7) h2 { 
+  position: relative;
+}
 
+#contactpagina section:nth-of-type(7) h2 { 
+  position: absolute;
+  left: 0em;
+  right: 0em;
+  top: 0em;
+}
 

@@ -40,11 +40,11 @@ responsive plane
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 homepage  
-<img src="images/homepage.aap.png" width="375px" alt="homepage">
+<img src="images/indexpagina!.png" width="375px" alt="homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-contact 
-<img src="images/contactformulier.aap.png" width="375px" alt="contact pagina">
+contact <br>
+<img src="images/contactpagina.png" width="375px" alt="contact pagina">
  
 </details>
 
@@ -60,6 +60,9 @@ contact
 
 ### contact pagina: 
 <img src="images/siteuitgeschrevencontact.jpg" width="375px" alt="breakdown van contactpagina">
+
+### overig
+uiteindelijk heb ik wat kleine dingetjes van deze schets weggelaten, omdat het mij niet lukte of het had geen toegevoegde waarden.
 
 </details>
 
@@ -80,7 +83,7 @@ Ik loop nog redelijk gelijk met de lessen, maar vind alles nog wel lastig en ik 
 ### Agenda voor meeting
 samen met je groepje opstellen.
 
-<img src="images/agenda.png" width="375px" alt="agenda team">
+<img src="images/agenda1.png" width="375px" alt="agenda team">
 
 
 ### Verslag van meeting
@@ -88,7 +91,10 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - aan mijn css werken 
 - html verbeteren 
-- volgende keer een andere link in het document zetten 
+- volgende keer een andere link in het document zetten dan ik had gedaan 
+
+### Verslag van meeting
+Ik heb geprobeerd samen te werken met mijn groepje maar die hebben uiteindelijk niets in de agenda ingevuld...
 
 </details>
 
@@ -108,7 +114,7 @@ Ik heb wat meer css in mijn pagina verwerkt, maar ik moet wel volgde week extra 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-<img src="images/team.png" width="375px" alt="agenda team">
+<img src="images/agenda2.png" width="375px" alt="agenda team">
 
 
 ### Verslag van meeting
@@ -116,6 +122,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - foto's gewoon in photoshop kleiner maken is makkelijk
 - hamburger menu moet je even zelf kijken in de opdrachten en sommige opdrachten gewoon opnieuw maken om dat te kunnen maken 
+
+### Verslag van meeting
+Ik heb weer geprobeerd samen te werken met mijn groepje maar die hebben uiteindelijk niets in de agenda ingevuld...
 
 </details>
 
@@ -134,7 +143,7 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 #### voice-over
 Als ik de voice-over test doe, dan leest hij de buttons bijvoorbeeld wel voor maar de tekst zoals titels niet. 
 
-Dit zou opgelost kunnen worden door een naam te geven aan de titels zodat deze ook voorgelezen kunnen worden. 
+Dit zou opgelost kunnen worden door een naam te geven aan de titels zodat deze ook voorgelezen kunnen worden, maar dit is mij niet gelukt.
 
 #### Voice-over 
 De stem van de voice-over is mega vervelend. Na een minuut word het al vervelend. 
@@ -154,7 +163,7 @@ Als de linkjes en de tekst dikgedrukt zijn en zwart gemaakt worden zou het beter
 #### Bril wazig
 Als je de de wazige bril op doet kan je ook het groene linkje niet zien 
 
-Als de linkjes dikgedrukt zijn en zwart gemaakt worden zou het beter te lezen zijn 
+Als de linkjes dikgedrukt zijn en zwart of donkergroen gemaakt worden zou het beter te lezen zijn 
 
 #### Bril diabetes
 Als je de de diabetes bril op doet kan opzich nog wel alles zien, maar je moet wel goed focussen op de letters 
@@ -165,7 +174,7 @@ Je kan door het elastiekje je site nog redelijk bedienen maar het wordt wel last
 #### motoriek apparaatje
 Je kan door het apparaatje niet heel goed je site bedienen. 
 
-Dit zou je kunnen oplossen door te kunnen tabben door de website met je mond. Dit is wel lastig. 
+Dit zou je kunnen oplossen door te kunnen tabben door de website met je mond. Dit is wel lastig. Je kan nu wel door mijn website heen tabben.
 
 </details>
 
@@ -182,20 +191,17 @@ Ik moet nog veel doen aan mijn tweede pagina, maar dat hoeft niet heel veel werk
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+<img src="images/agenda3.png" width="375px" alt="agenda team">
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- socials op zijn plaats zetten is gelukt 
+- volgens de feedback moest ik van alle sections in mijn css id's maken, maar er werd juist verteld dat ik dat niet mocht gebruiken in de les dus dat ga ik niet veel veranderen. 
+
+### Verslag van meeting
+Mijn groepje heeft weer niks in de agenda ingevuld...
 
 </details>
 
@@ -209,11 +215,23 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben trots op hoever ik ben gekomen. Het is niet perfect, maar wel beter dan ik had verwacht. Ik had misschien wat meer animaties willen toevoegen en extra gekke dingen, maar dat werd me een beetje te veel en te moeilijk. Daarom heb ik bij simpel gehouden, maar wel alles gedaan wat moest voor een voldoende (hoop ik).
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/home1.png" width="375px" alt="screenshots">
+
+<img src="images/home2.png" width="375px" alt="screenshots">
+
+<img src="images/home3.png" width="375px" alt="screenshots">
+
+<img src="images/home4.png" width="375px" alt="screenshots">
+
+<img src="images/contact1.png" width="375px" alt="screenshots">
+
+<img src="images/contact2.png" width="375px" alt="screenshots">
+
+<img src="images/contact3.png" width="375px" alt="screenshots">
 
 </details>
 
@@ -228,8 +246,20 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. bron 1: wasbeer plaatje op indexpagina, https://www.ad.nl/binnenland/limburgse-wasbeer-hoeft-nu-toch-niet-te-worden-afgeschoten~a80d4af9/?referrer=https%3A%2F%2Fwww.google.com%2F 
+2. bron 2: serval xirus plaatje index pagina: https://www.aap.nl/?gclid=CjwKCAiA-9uNBhBTEiwAN3IlNJLxQ4cdsUkeiEjzGtcd1pgyELNSSj07VRTdLaZ_HEjo5vRsBVZpdxoCuw0QAvD_BwE
+3. bron 3: apen plaatje op index pagina: https://www.aap.nl/?gclid=CjwKCAiA-9uNBhBTEiwAN3IlNJLxQ4cdsUkeiEjzGtcd1pgyELNSSj07VRTdLaZ_HEjo5vRsBVZpdxoCuw0QAvD_BwE
+4. bron 4: wasbeer plaatje 2 op index pagina: https://nos.nl/artikel/2402699-stichting-aap-gaat-opnieuw-limburgse-wasberen-opvangen
+5. bron 5: apen plaatje onderin de index pagina: https://www.aap.nl/?gclid=CjwKCAiA-9uNBhBTEiwAN3IlNJLxQ4cdsUkeiEjzGtcd1pgyELNSSj07VRTdLaZ_HEjo5vRsBVZpdxoCuw0QAvD_BwE
+6. bron 6: plaatje van pootafdruk op index pagina: https://www.aap.nl/?gclid=CjwKCAiA-9uNBhBTEiwAN3IlNJLxQ4cdsUkeiEjzGtcd1pgyELNSSj07VRTdLaZ_HEjo5vRsBVZpdxoCuw0QAvD_BwE
+7. bron 7: plaatjes van de socials op index pagina: https://www.aap.nl/?gclid=CjwKCAiA-9uNBhBTEiwAN3IlNJLxQ4cdsUkeiEjzGtcd1pgyELNSSj07VRTdLaZ_HEjo5vRsBVZpdxoCuw0QAvD_BwE
+8. bron 8: Aap logo op index pagina: https://www.aap.nl/?gclid=CjwKCAiA-9uNBhBTEiwAN3IlNJLxQ4cdsUkeiEjzGtcd1pgyELNSSj07VRTdLaZ_HEjo5vRsBVZpdxoCuw0QAvD_BwE
+10. bron 9: linkje "meer over dit project" https://www.aap.nl/de-wasbeer-in-nederland/
+11. bron 10: linkje "naar overzicht" https://www.aap.nl/nieuws/
+12. bron 11: linkje "lees verder" https://www.aap.nl/nieuwsbericht/stichting-aap-gaat-ook-laatste-limburgse-wasberen-opvangen/
+13. bron 12: linkje "help mee" https://www.aap.nl/help-mee/
+14. bron 13: linkje "vraag en antwoord" https://www.aap.nl/over-aap/vraag-en-antwoord/
+15. bron 14: linkje "meld dier/dierleed" https://www.aap.nl/dier-aanmelden/
+16. bron 15: hamburgermenu: opdracht van sanne
 
 </details>

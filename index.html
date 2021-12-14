@@ -1,165 +1,116 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="Milou-Mulder">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<title>homepage</title>
-	
+
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
-<body>
+<body id="homepage">
 	<header>
-
 		<nav>
-
 			<h1>AAP</h1>
 
-			<a href="https://www.aap.nl/help-mee/doneren/">doneren</a>	
+			<a href="https://www.aap.nl/help-mee/doneren/">doneren</a>
 
-				<button>
-				</button>
-					<ul>
-						<li> Dit doen wij</li>
-						<li>Help mee</li>
-						<li>Kom kijken</li>
-						<li>Over AAP</li>
-						<li>Nieuws</li>
-					</ul>
-				
+			<button onclick="play();"></button>
+			<audio id="audio" src="audio/t-rex-roar.mp3"></audio>
 
+			<ul>
+				<li>Dit doen wij</li>
+				<li>Help mee</li>
+				<li>Kom kijken</li>
+				<li>Over AAP</li>
+				<li>Nieuws</li>
+			</ul>
 		</nav>
-
 	</header>
 
-<main>
-
-	<section>
-
+	<main>
+		<section>
 			<img src="images/wasbeer.jpeg" alt="plaatje van wasbeer">
-
 			<h3>Wasberen zijn born to be wild</h3>
+			<a href="https://www.aap.nl/de-wasbeer-in-nederland/">Meer over dit project</a>
+		</section>
 
-				<a href="https://www.aap.nl/de-wasbeer-in-nederland/">Meer over dit project</a>
+		<section>
+			<h2>Help de dieren met een donatie!</h2>
+		</section>
 
-	</section>
-
-	<section>
-
-		<h2>Help de dieren met een donatie!</h2>
-
-	</section>
-
-	<section>
-
+		<section>
 			<button>€100</button>
-
 			<button>€50</button>
-
 			<button>€10</button>
-
 			<button>Doneer</button>
+		</section>
 
-	</section>
-
-	<section>
-
+		<section>
 			<img src="images/serval xirus.jpeg" alt="plaatje serval xirus">
-
 			<h2>Exotische huisdieren</h2>
+			<p> Serval xirus kreeg als huisdier niet de juiste verzorging</p>
+		</section>
 
-		<p> Serval xirus kreeg als huisdier niet de juiste verzorging</p>
+		<section>
+			<p> Chimpansee Linda werd uit het wild gesmokkeld</p>
+			<h2>Illegale dierenhandel</h2>
+			<img src="images/aap linda.jpeg" alt="plaatje van chimpansee Linda">
 
-	</section>
+		</section>
 
-<section>
+		<section>
+			<h2>Het laatste nieuws</h2>
+			<a href="https://www.aap.nl/nieuws/">naar overzicht</a>
+			<img src="images/wasbeer kopie.jpeg" alt="plaatje wasberen">
 
-	<p>	Chimpansee Linda werd uit het wild gesmokkeld</p>
+			<h3>Aap gaat ook laatste Limburgse wasberen opvangen</h3>
+			<a href="https://www.aap.nl/nieuwsbericht/stichting-aap-gaat-ook-laatste-limburgse-wasberen-opvangen/">lees
+				verder</a>
+		</section>
 
-		<h2>Illegale dierenhandel</h2>
+		<section>
+			<h2>Kom langs in de opvangcentra van aap</h2>
+			<p>In onze opvang geven we dieren in nood weer een veilige plek en professionele verzorging.</p>
+			<img src="images/aapjes.jpeg" alt="apen plaatje">
+			<button>ja, kom kijken</button>
+		</section>
 
-		<img src="images/aap linda.jpeg" alt="plaatje van chimpansee Linda">
+		<section>
+			<h2>Samen maken we einde aan het leed van exotische dieren in europa</h2>
+			<p>482</p>
+			<img src="images/huisjemetpoot1.png" alt="plaatje huisje met poot">
+		</section>
 
-	</section>
+		<section id="socials">
+			<h2>Volg de verhalen op socialmedia</h2>
 
-	<section>
-
-		<h2>Het laatste nieuws</h2>
-
-		<a href="https://www.aap.nl/nieuws/">naar overzicht</a>
-
-		<img src="images/wasbeer kopie.jpeg" alt="plaatje wasberen">
-
-		<h3>Aap gaat ook laatste Limburgse wasberen opvangen</h3>
-
-		<a href="https://www.aap.nl/nieuwsbericht/stichting-aap-gaat-ook-laatste-limburgse-wasberen-opvangen/">lees verder</a>
-
-	</section>
-
-<section>
-
-		<h2>Kom langs in de opvangcentra van aap</h2>
-
-		<p>
-			In onze opvang geven we dieren in nood weer een veilige plek en professionele verzorging.
-		</p>
-
-		<img src="images/aapjes.jpeg" alt="apen plaatje">
-
-		<button>ja, kom kijken</button>
-
-	</section>
-
-<section>
-
-	<h2>Samen maken we einde aan het leed van exotische dieren in europa</h2>
-
-	<p>
-		482
-	</p>
-
-	<img src="images/huisjemetpoot1.png" alt="plaatje huisje met poot">
-
-	
-
-</section>
-
-<section>
-
-	<h2>Volg de verhalen op socialmedia</h2>
-
-<ul>
-	<li> <a href="https://www.facebook.com/StichtingAAP"><img src="images/facebook.png" alt="facebook"></a></li>
-	<li> <a href=""><img src="images/instagram.png" alt="instagram"></a></li>
-	<li> <a href=""><img src="images/twitter.png" alt="twitter"></a></li>
-</ul>
-
-</section>	
-
-</main>
+			<ul>
+				<li> <a href="https://www.facebook.com/StichtingAAP"><img src="images/facebook.png" alt="facebook"></a>
+				</li>
+				<li> <a href=""><img src="images/instagram.png" alt="instagram"></a></li>
+				<li> <a href=""><img src="images/twitter.png" alt="twitter"></a></li>
+			</ul>
+		</section>
+	</main>
 
 	<footer>
+		<img src="images/logo-stichting-aap.svg" alt="logo stichting aap">
 
-	<img src="images/logo-stichting-aap.svg" alt="logo stichting aap">
-
-	<h3>Informatie</h3>
-
+		<h3>Informatie</h3>
 		<ul>
-			<li><a href="https://www.aap.nl/contact/">contact</a></li>
+			<li><a href="contactpagina.html">contact</a></li>
 			<li><a href="https://www.aap.nl/help-mee/">help mee</a></li>
 			<li><a href="https://www.aap.nl/over-aap/vraag-en-antwoord/">vraag & antwoord</a></li>
 			<li><a href="https://www.aap.nl/dier-aanmelden/">meld dier/dierenleed</a></li>
-			
 		</ul>
-
-</footer>
+	</footer>
 
 	<script src="scripts/script.js"></script>
-
 </body>
-	
+
 </html>

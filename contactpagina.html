@@ -1,120 +1,163 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="Milou-Mulder">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>contactpagina</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="author" content="Milou-Mulder">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>contactpagina</title>
+
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
-<body>
-	<header>
+<body id="contactpagina">
+    <header>
+        <nav>
+            <h1>AAP</h1>
 
-		<nav>
+            <a href="https://www.aap.nl/help-mee/doneren/">doneren</a>
 
-			<h1>AAP</h1>
+            <button onclick="play();"></button>
+            <audio id="audio" src="audio/t-rex-roar.mp3"></audio>
 
-			<a href="https://www.aap.nl/help-mee/doneren/">doneren</a>	
+            <ul>
+                <li>Dit doen wij</li>
+                <li>Help mee</li>
+                <li>Kom kijken</li>
+                <li>Over AAP</li>
+                <li>Nieuws</li>
+            </ul>
+        </nav>
+    </header>
 
-				<button>
-				</button>
-					<ul>
-						<li> Dit doen wij</li>
-						<li>Help mee</li>
-						<li>Kom kijken</li>
-						<li>Over AAP</li>
-						<li>Nieuws</li>
-					</ul>
-				
-		</nav>
+    <main>
+        <section>
+            <h2>Contactformulier</h2>
 
-	</header>
+            <p>
+                Hoe kunnen we je helpen? Via onderstaand formulier kun je gemakkelijk wijzigingen
+                in je donateursgegevens aan ons doorgeven. Ook kun je post-/ en belvoorkeuren wijzigingen
+                of gewoon een vraag aan ons stellen.
+            </p>
 
-<main>
+            <p>Wil je toch liever telefonisch contact of kom je er niet uit? Bel ons dan via het nummer:</p>
 
-    <h2>Contactformulier</h2>
+            <p id="telefoonnummer">(+31)(0)365238787</p>
+        </section>
 
-    <h3>Je contactverzoek</h3>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Je contactverzoek</legend>
 
-    <h3>Persoonlijke gegevens</h3>
+                    <input type="checkbox" id="Mijn persoonlijke gegevens wijzigen"
+                        name="Mijn persoonlijke gegevens wijzigen">
+                    <label for="Mijn persoonlijke gegevens wijzigen">Mijn persoonlijke gegevens wijzigen</label><br>
 
-    <h3>Bankrekening wijzigen</h3>
+                    <input type="checkbox" id="Telefoonnummer wijzigen" name="Telefoonnummer wijzigen">
+                    <label for="Telefoonnummer wijzigen">Telefoonnummer wijzigen</label><br>
 
-    <h3>Afmelden telemarketing</h3>
+                    <input type="checkbox" id="Een vraag stellen" name="Een vraag stellen">
+                    <label for="Een vraag stellen">Een vraag stellen</label>
+                </fieldset>
+            </form>
+        </section>
 
-    <h3>Aanpassen verzending Apenote en overige post</h3>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Persoonlijke gegevens</legend>
 
-    <h3>Vraag</h3>
+                    <label for="Voorletters">Voorletters:</label><br>
+                    <input type="text" id="Voorletters" name="Voorletters"><br>
 
-    <p>
-        Hoe kunnen we je helpen? Via onderstaand formulier kun je gemakkelijk wijzigingen
-        in je donateursgegevens aan ons doorgeven. Ook kun je post-/ en belvoorkeuren wijzigingen
-        of gewoon een vraag aan ons stellen.
-    </p>
+                    <label for="Voornaam">Voornaam:</label><br>
+                    <input type="text" id="Voornaam" name="Voornaam"><br>
 
-    <p>
-        Wil je toch liever telefonisch contact of kom je er niet uit? Bel ons dan via het nummer:
-        (+31)(0)365238787
-    </p>
+                    <label for="Tussenvoegsel">Tussenvoegsel:</label><br>
+                    <input type="text" id="Tussenvoegsel" name="Tussenvoegsel"><br>
 
-    <form action=""></form>
+                    <label for="Achternaam">Achternaam:</label><br>
+                    <input type="text" id="Achternaam" name="Achternaam"><br>
 
-    <form action=""></form>
+                    <label for="E-mailadres">E-mailadres:</label><br>
+                    <input type="text" id="E-mailadres" name="E-mailadres"><br>
 
-    <form action=""></form>
+                    <label for="Herhaal E-mailadres">Herhaal E-mailadres:</label><br>
+                    <input type="text" id="Herhaal E-mailadres" name="Herhaal E-mailadres"><br>
 
-    <form action=""></form>
+                    <label for="Telefoonnummer">Telefoonnummer:</label><br>
+                    <input type="text" id="Telefoonnummer" name="Telefoonnummer"><br>
 
-   <p>
-       Hartelijk dank voor het doorgeven. Wij hebben 2 werkdagen
-       nodig om je afmelding te verwerken. Ons telemarketingbureau zal je 
-       hierna niet meer bellen
-   </p>
+                    <label for="Postcode">Postcode:</label><br>
+                    <input type="text" id="Postcode" name="Postcode"><br>
 
-   <form action=""></form>
+                    <label for="Huisnummer">Huisnummer:</label><br>
+                    <input type="text" id="Huisnummer" name="Huisnummer"><br>
 
-   <p>
-       Mocht je binnenkort toch nog post van aap ontvangen, dan komt dit doordat
-       dit poststuk al bij de drukker ligt en ter verzending is aangeboden.
-       Helaas is het dan te laat om verzending te voorkomen. We hopen dat je hiervoor begrip hebt.
-   </p>
+                    <label for="Huisnummer toevoeging">Huisnummer toevoeging:</label><br>
+                    <input type="text" id="Huisnummer toevoeging" name="Huisnummer toevoeging">
+                </fieldset>
+            </form>
+        </section>
 
-   <form action=""></form>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>telefoonnummer wijzigen</legend>
 
-   <button>versturen</button>
+                    <label for="Oude telefoonnummer">Oude telefoonnummer:</label><br>
+                    <input type="text" id="Oude telefoonnummer" name="Oude telefoonnummer"><br>
 
+                    <label for="Nieuwe telefoonnummer">Nieuwe telefoonnummer:</label><br>
+                    <input type="text" id="Nieuwe telefoonnummer" name="Nieuwe telefoonnummer"><br>
+                </fieldset>
+            </form>
+        </section>
 
-</main>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Vraag</legend>
 
-<footer>
+                    <label for="vraag">Wat is jouw vraag?</label><br>
+                    <textarea name="vraag" id="vraag" cols="30" rows="10"></textarea>
+                </fieldset>
+            </form>
+        </section>
 
-	<h5>informatie</h5>
+        <section>
+            <button>versturen</button>
+        </section>
 
-	<h5>Social Media</h5>
+        <section id="socials">
+            <h2>Volg de verhalen op <br> socialmedia</h2>
 
-	<img src="" alt="logo stichting aap">
+            <ul>
+                <li> <a href="https://www.facebook.com/StichtingAAP"><img src="images/facebook.png" alt="facebook"></a>
+                </li>
+                <li> <a href=""><img src="images/instagram.png" alt="instagram"></a></li>
+                <li> <a href=""><img src="images/twitter.png" alt="twitter"></a></li>
+            </ul>
+        </section>
+    </main>
 
-		<ul>
-			<li><a href="https://www.aap.nl/contact/"></a>contact</li>
-			<li><a href="https://www.aap.nl/help-mee/"></a>help mee</li>
-			<li><a href="https://www.aap.nl/over-aap/vraag-en-antwoord/"></a>vraag & antwoord</li>
-			<li><a href="https://www.aap.nl/dier-aanmelden/"></a>meld dier/dierenleed</li>
-			<li>social media</li>
-		</ul>
+    <footer>
+        <img src="images/logo-stichting-aap.svg" alt="logo stichting aap">
 
-		<img src="" alt="socialmedia logo's">
+        <h3>Informatie</h3>
 
-		<img src="" alt="logo's ">
+        <ul>
+            <li><a href="contactpagina.html">contact</a></li>
+            <li><a href="https://www.aap.nl/help-mee/">help mee</a></li>
+            <li><a href="https://www.aap.nl/over-aap/vraag-en-antwoord/">vraag & antwoord</a></li>
+            <li><a href="https://www.aap.nl/dier-aanmelden/">meld dier/dierenleed</a></li>
+        </ul>
+    </footer>
 
-</footer>
-
-	<script src="scripts/script.js"></script>
-
+    <script src="scripts/script.js"></script>
 </body>
-	
+
 </html>
