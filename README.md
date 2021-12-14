@@ -44,7 +44,7 @@ homepage
 
 #### Screenshot(s) van de tweede pagina (small screen):
 contact <br>
-<img src="images/contactpagina.png" width="375px" alt="contact pagina">
+<img src="images/contactpagina!.png" width="375px" alt="contact pagina">
  
 </details>
 
