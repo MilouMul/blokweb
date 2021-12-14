@@ -55,7 +55,7 @@ contact <br>
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
-### de hele pagina: 
+### homepage: 
 <img src="images/siteuitgeschrevenhome.jpg" width="375px" alt="breakdown van de home pagina">
 
 ### contact pagina: 
