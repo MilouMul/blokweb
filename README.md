@@ -40,11 +40,11 @@ responsive plane
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 homepage  
-<img src="images/indexpagina!.png" width="375px" alt="homepage">
+<img src="images/indexpagina!.jpg" width="375px" alt="homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 contact <br>
-<img src="images/contactpagina!.png" width="375px" alt="contact pagina">
+<img src="images/contactpagina!.jpg" width="375px" alt="contact pagina">
  
 </details>
 
@@ -93,7 +93,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - html verbeteren 
 - volgende keer een andere link in het document zetten dan ik had gedaan 
 
-### Verslag van meeting
+### Overig
 Ik heb geprobeerd samen te werken met mijn groepje maar die hebben uiteindelijk niets in de agenda ingevuld...
 
 </details>
@@ -123,7 +123,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - foto's gewoon in photoshop kleiner maken is makkelijk
 - hamburger menu moet je even zelf kijken in de opdrachten en sommige opdrachten gewoon opnieuw maken om dat te kunnen maken 
 
-### Verslag van meeting
+### Overig
 Ik heb weer geprobeerd samen te werken met mijn groepje maar die hebben uiteindelijk niets in de agenda ingevuld...
 
 </details>
@@ -200,7 +200,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - socials op zijn plaats zetten is gelukt 
 - volgens de feedback moest ik van alle sections in mijn css id's maken, maar er werd juist verteld dat ik dat niet mocht gebruiken in de les dus dat ga ik niet veel veranderen. 
 
-### Verslag van meeting
+### Overig
 Mijn groepje heeft weer niks in de agenda ingevuld...
 
 </details>
@@ -219,6 +219,8 @@ Ik ben trots op hoever ik ben gekomen. Het is niet perfect, maar wel beter dan i
 
 ### Screenshot(s)
 
+indexpagina
+
 <img src="images/home1.png" width="375px" alt="screenshots">
 
 <img src="images/home2.png" width="375px" alt="screenshots">
@@ -226,6 +228,8 @@ Ik ben trots op hoever ik ben gekomen. Het is niet perfect, maar wel beter dan i
 <img src="images/home3.png" width="375px" alt="screenshots">
 
 <img src="images/home4.png" width="375px" alt="screenshots">
+
+contactpagina
 
 <img src="images/contact1.png" width="375px" alt="screenshots">
 
@@ -243,8 +247,6 @@ Ik ben trots op hoever ik ben gekomen. Het is niet perfect, maar wel beter dan i
 
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
-
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. bron 1: wasbeer plaatje op indexpagina, https://www.ad.nl/binnenland/limburgse-wasbeer-hoeft-nu-toch-niet-te-worden-afgeschoten~a80d4af9/?referrer=https%3A%2F%2Fwww.google.com%2F 
 2. bron 2: serval xirus plaatje index pagina: https://www.aap.nl/?gclid=CjwKCAiA-9uNBhBTEiwAN3IlNJLxQ4cdsUkeiEjzGtcd1pgyELNSSj07VRTdLaZ_HEjo5vRsBVZpdxoCuw0QAvD_BwE
